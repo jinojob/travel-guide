@@ -1,0 +1,72 @@
+body{
+    
+    box-sizing: border-box;
+}
+
+.home{
+   background: url(https://media.istockphoto.com/id/904172104/photo/weve-made-it-all-this-way-i-am-proud.jpg?s=612x612&w=0&k=20&c=MewnsAhbeGRcMBN9_ZKhThmqPK6c8nCT8XYk5ZM_hdg=);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   height: 100vh;
+}
+/* .navimg{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+} */
+
+.travelh p{
+    font-size: 500px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.enquiry button{
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+    
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    transform: translate(800px, 670px)
+    
+   
+}
+.card-img-top{
+    width: 100%;
+    height: 210px;
+}
+.carousel-caption{
+    font-size: 40px;
+}
+.carousel-caption h1{
+    font-size: 60px;
+}
+.text-center a{
+text-decoration: none;
+}
+
+.north img{
+    transition: transform 0.3s ease;
+
+}
+
+.north:hover img {
+    transform: scale(1.1);
+}
+.review {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    
+}
+.starr{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: rgb(223, 161, 28);
+}
+.fbody{
+   background-color: rgb(1, 1, 115);
+}
